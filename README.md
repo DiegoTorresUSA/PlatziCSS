@@ -1,2 +1,2 @@
 # PlatziCSS
-Practicing HTML - CSS Project YardSale
+Only Practicing HTML - CSS
