@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Position</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container{
+        margin-top: 180px;
+        width: 100%;
+        height: 500px;
+        background-color: bisque;
+        display: grid;
+        place-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 15px;        
+    }
+
+    .titulo{
+       position: relative;
+       width: 50%;
+       height: 35%;
+       background-color: aqua;
+       border-radius: 12px;
+       font-size: 22px;
+       font-weight: bold;
+       margin-top: -140px;
+       display: grid;
+       place-items: center;
+    }
+    .container-text{
+        display: grid;
+        text-align: center;
+        width: 80%;
+        margin-bottom: 120px;
+    }
+    .texto{
+        
+    }
+  
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="titulo">
+            <p>Yo soy un texto</p>
+        </div>
+
+        <div class="container-text">
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ipsa aperiam dignissimos asperiores illo aspernatur vitae pariatur consectetur debitis nostrum sint cupiditate, neque quo harum, iure sunt reprehenderit corrupti hic?</p>
+        </div>
+    </div>
+
+</body>
+</html>
