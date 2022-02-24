@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge LayoutPlatzi</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+    }
+    .header-container {
+      width: 100%;
+      height: 60px;
+      background-color: gainsboro;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .header-container p {
+      margin: 0;
+    }
+    .nav-container li {
+      display: inline-block;
+      list-style: none;
+      margin-right: 10px;
+    }
+    .container-main {
+        width: 100%;
+        background-color: gray;
+        display: flex;
+        
+    }
+    .aside-container {
+      width: 15%;
+      height: 35rem;
+      background-color: pink;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .content-container {
+      width: 90%;
+      height: 7.5rem;
+      background-color: aqua;
+      border-radius: 10px;
+      margin: 10px 0 10px 0;
+    }
+    
+  </style>
+  <body>
+    <div class="container-layout">
+      <header>
+        <div class="header-container">
+          <p>Logo</p>
+
+          <div class="nav-container">
+            <ul>
+              <li>Home</li>
+              <li>Cursos</li>
+              <li>Instructores</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <div class="container-main">
+        <aside class="aside-container">
+          <div class="content-container"></div>
+          <div class="content-container"></div>
+          <div class="content-container"></div>
+          <div class="content-container"></div>
+        </aside>
+
+        <div class="main-content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            dolorem ullam suscipit odit, vero voluptatum dicta id? Nulla
+            voluptate, alias aliquid ex velit nesciunt tempore officiis ad
+            cumque dicta iste.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
