@@ -53,3 +53,22 @@ for (i = 0; i < 2; i++){
     persona.push(new Datos(nombre, edad));
     console.log(persona);
 }
+
+function motos(nombre, modelo, precio){
+    this.nombre = nombre;
+    this.modelo = modelo;
+    this.precio = precio;
+}
+
+var motoArray = [];
+
+for (i = 0; i < 3; i++){
+    var nombre = prompt("Digita el nombre de la moto");
+    var modelo = prompt("Digita el modelo");
+    var precio = prompt("Digita el precio");
+
+    motoArray.push(new motos(nombre, modelo, precio));
+}
+
+console.log(motoArray);
+
